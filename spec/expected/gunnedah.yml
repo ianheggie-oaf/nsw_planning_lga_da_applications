@@ -1,0 +1,271 @@
+---
+- council_reference: 2013/134.003
+  address: Modification of Consent NSW
+  description: Modify Proposed Staging Works
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2013134003-modification-consent-modify-proposed-staging-works
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2015/062.005
+  address: 131 Quia Road, Gunnedah NSW 2380
+  description: Modification to Kerb & Guttering
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2015062005-131-quia-rd-gunnedah-modification-kerb-guttering
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2017/022.002
+  address: 6B Parkview Drive, Gunnedah NSW 2380
+  description: Modification of Dual Occupancy
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2017022002-6b-parkview-dr-gunnedah-modification-dual-occupancy
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2017/036.002
+  address: 277 Conadilly Street, Gunnedah NSW 2380
+  description: Modification of Operation Hours
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2017036002-277-conadilly-st-gunnedah-modification-operation-hours
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2019/014.004
+  address: 49-75 Finch Street, Gunnedah NSW 2380
+  description: Modification to amend floor plan and staging
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2019014004-49-75-finch-st-gunnedah-modification-amend-floor-plan-and-staging
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 202/2017.002
+  address: 107 Barber Street, Gunnedah NSW 2380
+  description: Mod to Stage Development
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2022017002-107-barber-st-gunnedah-mod-stage-development
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2020/054.002
+  address: 334 Pownall Rd, Mullaley NSW 2379
+  description: Modification to Waste Limits
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2020054002-334-pownall-rd-mullaley-modification-waste-limits
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2021.018.004
+  address: 2-42 Kamilaroi Highway, Gunnedah NSW 2380
+  description: Modification
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2021018004-2-42-kamilaroi-hwy-gunnedah-modification
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2021.080.002
+  address: 418 Quia Road, Gunnedah NSW 2380
+  description: Animal Impound Centre Modification
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2021080002-418-quia-rd-gunnedah-animal-impound-centre-modification
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2021/092
+  address: 12 Allgayer Drive, Gunnedah NSW 2380
+  description: Concrete Batching Plant
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2021092-12-allgayer-drive-gunnedah-concrete-batching-plant
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2022/049
+  address: 90 Marquis Street, Gunnedah NSW 2380
+  description: Change of Use
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2022049-90-marquis-st-gunnedah-change-use
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2023.037'
+  address: 2 Vera Close, Gunnedah NSW 2380
+  description: Earthworks
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2023037-2-vera-cl-gunnedah-earthworks
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2023.075'
+  address: 24-42 Goodwin Road, Gunnedah NSW 2380
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2023075-24-42-goodwin-rd-gunnedah-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2023/017
+  address: 54 Hunter Street, Gunnedah NSW 2380
+  description: Additions to Childcare Centre
+  info_url: https://www.planningportal.nsw.gov.au/daex/withdrawn/2023017-54-hunter-st-gunnedah-additions-childcare-centre
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2023/046
+  address: 809 Oakey Creek Rd, Piallaway NSW 2342
+  description: Bulgers Pit
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2023046-809-oakey-creek-rd-piallaway-bulgers-pit
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2023/068.002
+  address: 12 Parkview Drive, Gunnedah NSW 2380
+  description: Modifed Development Layout
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2023068002-12-parkview-dr-gunnedah-modifed-development-layout
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.036'
+  address: 341-347 Conadilly Street, Gunnedah NSW 2380
+  description: Service Station
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024036-341-347-conadilly-st-gunnedah-service-station
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.038'
+  address: 30 Galway Avenue, Gunnedah NSW 2380
+  description: Dwelling
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024038-30-galway-ave-gunnedah-dwelling
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.040'
+  address: 37 Wattle Street, Gunnedah NSW 2380
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024040-37-wattle-st-gunnedah-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.052'
+  address: 150 Little Barber Street, Gunnedah NSW 2380
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024052-150-little-barber-st-gunnedah-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.054'
+  address: 18-22 Kamilaroi Road, Gunnedah NSW 2380
+  description: Subdivision
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024054-18-22-kamilaroi-rd-gunnedah-subdivision
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.055'
+  address: 76A Beulah Street, Gunnedah NSW 2380
+  description: Outbuilding & Swimming Pool
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024055-76a-beulah-st-gunnedah-outbuilding-swimming-pool
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.057'
+  address: 8 Goran St, Curlewis NSW
+  description: Subdivision
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024057-8-goran-st-curlewis-subdivision
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.058'
+  address: 34-36 Silversmith Place, Gunnedah NSW 2380
+  description: Secondary Dwelling
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024058-34-36-silversmith-pl-gunnedah-secondary-dwelling
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.059'
+  address: 64 Kerry Elizabeth Drive, Gunnedah NSW 2380
+  description: Home Business
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024059-64-kerry-elizabeth-dr-gunnedah-home-business
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.061'
+  address: 27 Booloocooroo Road, Gunnedah NSW 2380
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024061-27-booloocooroo-rd-gunnedah-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.062'
+  address: 44 Booloocooroo Road, Gunnedah NSW 2380
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024062-44-booloocooroo-rd-gunnedah-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.066'
+  address: 309-329 Conadilly Street, Gunnedah NSW 2380
+  description: Communications Tower
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024066-309-329-conadilly-st-gunnedah-communications-tower
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.070'
+  address: 25 Booloocooroo Road, Gunnedah NSW 2380
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024070-25-booloocooroo-rd-gunnedah-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.076'
+  address: 1258 The Dip Rd, Curlewis NSW
+  description: Hard Rock Quarry
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2024076-1258-dip-rd-curlewis-hard-rock-quarry
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.084'
+  address: 100B Beulah Street, Gunnedah NSW 2380
+  description: Subdivision
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024084-100b-beulah-st-gunnedah-subdivision
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.085'
+  address: 160 Wandobah Road, Gunnedah NSW 2380
+  description: Carport
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024085-160-wandobah-rd-gunnedah-carport
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.088'
+  address: 21 George Street, Gunnedah NSW 2380
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024088-21-george-st-gunnedah-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.093'
+  address: 23 Palmer Crescent, Gunnedah NSW 2380
+  description: Home Business
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024093-23-palmer-cres-gunnedah-home-business
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.095'
+  address: 107 George Street, Gunnedah NSW 2380
+  description: Dual Occupancy & Subdivision
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024095-107-george-st-gunnedah-dual-occupancy-subdivision
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2024.097'
+  address: 42 Bindea Place, Gunnedah NSW 2380
+  description: Dwelling, Garage & Pool
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2024097-42-bindea-pl-gunnedah-dwelling-garage-pool
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2024/050
+  address: 35 Wentworth Street, Gunnedah NSW 2380
+  description: Multi-Dwelling
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024050-35-wentworth-st-gunnedah-multi-dwelling
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2024/065
+  address: 170 Bushs Lane, Gunnedah NSW 2380
+  description: Subdivision
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024065-170-bushs-lane-gunnedah-subdivision
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: 2024/098
+  address: 29-31 Breeza St, Carroll NSW 2340
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2024098-29-31-breeza-st-carroll-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2025.011'
+  address: View Street, Gunnedah NSW 2380
+  description: Circus
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2025011-view-street-gunnedah-circus
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2025.012'
+  address: 73 Maitland Street, Gunnedah NSW 2380
+  description: Dwelling
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2025012-73-maitland-st-gunnedah-dwelling
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2025.019'
+  address: 1693 Blue Vale Rd, Blue Vale NSW
+  description: Temporary Event Infrastructure
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/2025019-1693-blue-vale-rd-blue-vale-temporary-event-infrastructure
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2025.025'
+  address: 8521 Oxley Highway, Gunnedah NSW 2380
+  description: Dwelling
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2025025-8521-oxley-hwy-gunnedah-dwelling
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: '2025.028'
+  address: 9 Eighth Division Memorial Avenue, Gunnedah NSW 2380
+  description: Shed
+  info_url: https://www.planningportal.nsw.gov.au/daex/under-consideration/2025028-9-eighth-division-memorial-ave-gunnedah-shed
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah
+- council_reference: DA2021/089
+  address: 617 Beeson Road, Gunnedah NSW 2380
+  description: Review of Determination
+  info_url: https://www.planningportal.nsw.gov.au/daex/determined/da2021089-617-beeson-road-review-determination
+  date_scraped: '2025-04-15'
+  authority_label: gunnedah

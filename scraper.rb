@@ -1,25 +1,85 @@
-# This is a template for a Ruby scraper on morph.io (https://morph.io)
-# including some code snippets below that you should find helpful
+#!/usr/bin/env ruby
+# frozen_string_literal: true
 
-# require 'scraperwiki'
-# require 'mechanize'
-#
-# agent = Mechanize.new
-#
-# # Read in a page
-# page = agent.get("http://foo.com")
-#
-# # Find something on the page using css selectors
-# p page.at('div.content')
-#
-# # Write out to the sqlite database using scraperwiki library
-# ScraperWiki.save_sqlite(["name"], {"name" => "susan", "occupation" => "software developer"})
-#
-# # An arbitrary query against the database
-# ScraperWiki.select("* from data where 'name'='peter'")
+Bundler.require
 
-# You don't have to do things with the Mechanize or ScraperWiki libraries.
-# You can use whatever gems you want: https://morph.io/documentation/ruby
-# All that matters is that your final data is written to an SQLite database
-# called "data.sqlite" in the current working directory which has at least a table
-# called "data".
+$LOAD_PATH << "./lib"
+
+require "scraper_utils"
+require_relative "lib/nsw_planning_lga_scraper"
+
+# Main Scraper class
+class Scraper
+  AUTHORITIES = NswPlanningLgaScraper::AUTHORITIES
+
+  def self.scrape(authorities, attempt)
+    exceptions = {}
+    authorities.each do |authority_label|
+      puts "\nCollecting feed data for #{authority_label}, attempt: #{attempt}..."
+
+      ScraperUtils::DataQualityMonitor.start_authority(authority_label)
+      NswPlanningLgaScraper.scrape(authority_label) do |record|
+        record["authority_label"] = authority_label.to_s
+        ScraperUtils::DbUtils.save_record(record)
+      rescue ScraperUtils::UnprocessableRecord => e
+        ScraperUtils::DataQualityMonitor.log_unprocessable_record(e, record)
+        exceptions[authority_label] = e
+      end
+    rescue StandardError => e
+      warn "#{authority_label}: ERROR: #{e}"
+      warn e.backtrace
+      exceptions[authority_label] = e
+    end
+    exceptions
+  end
+
+  def self.selected_authorities
+    ScraperUtils::AuthorityUtils.selected_authorities(AUTHORITIES.keys)
+  end
+
+  def self.run(authorities)
+    puts "Scraping authorities: #{authorities.join(', ')}"
+    start_time = Time.now
+    exceptions = scrape(authorities, 1)
+    ScraperUtils::LogUtils.log_scraping_run(
+      start_time,
+      1,
+      authorities,
+      exceptions
+    )
+    unless exceptions.empty?
+      puts "\n***************************************************"
+      puts "Now retrying authorities which earlier had failures"
+      puts exceptions.keys.join(", ")
+      puts "***************************************************"
+
+      start_time = Time.now
+      exceptions = scrape(exceptions.keys, 2)
+      ScraperUtils::LogUtils.log_scraping_run(
+        start_time,
+        2,
+        authorities,
+        exceptions
+      )
+    end
+
+    # Report on results, raising errors for unexpected conditions
+    ScraperUtils::LogUtils.report_on_results(authorities, exceptions)
+  end
+end
+
+if __FILE__ == $PROGRAM_NAME
+  # Default to a list of authorities we can't or won't fix in code, explain why
+  # some: url-for-issue Summary Reason
+  # councils: url-for-issue Summary Reason
+
+  ENV["MORPH_EXPECT_BAD"] ||= "" # ''"some,councils"
+  Scraper.run(Scraper.selected_authorities)
+
+  # Dump database for morph-cli
+  if File.exist?("tmp/dump-data-sqlite")
+    puts "-- dump of data.sqlite --"
+    system "sqlite3 data.sqlite .dump"
+    puts "-- end of dump --"
+  end
+end
